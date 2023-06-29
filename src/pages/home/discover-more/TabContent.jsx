@@ -1,27 +1,29 @@
-import React from "react";
+import './discover-more.css';
+
+import { Col, Row } from 'react-bootstrap';
+
+import { FaEthereum } from 'react-icons/fa';
+import NFTS1 from '../../../assets/img/nfts-1.png';
+import NFTS2 from '../../../assets/img/nfts-2.png';
+import NFTS3 from '../../../assets/img/nfts-3.png';
+import NFTS4 from '../../../assets/img/nfts-4.png';
+import NFTSUser1 from '../../../assets/img/nfts-user-1.png';
+import NFTSUser2 from '../../../assets/img/nfts-user-2.png';
+import NFTSUser3 from '../../../assets/img/nfts-user-3.png';
+import NFTSUser4 from '../../../assets/img/nfts-user-4.png';
+import React from 'react';
 
 // import bootstrap components
-import { Col, Row } from "react-bootstrap";
 
 // import custom css
-import "./discover-more.css";
 
 // import imgs
-import NFTS1 from "../../../assets/img/nfts-1.png";
-import NFTS2 from "../../../assets/img/nfts-2.png";
-import NFTS3 from "../../../assets/img/nfts-3.png";
-import NFTS4 from "../../../assets/img/nfts-4.png";
-import NFTSUser1 from "../../../assets/img/nfts-user-1.png";
-import NFTSUser2 from "../../../assets/img/nfts-user-2.png";
-import NFTSUser3 from "../../../assets/img/nfts-user-3.png";
-import NFTSUser4 from "../../../assets/img/nfts-user-4.png";
 
 // icons import
-import { FaEthereum } from "react-icons/fa";
 
 export default function DiscoverMore() {
-	return (
-		<Row>
+  return (
+    <Row>
       {/* first col */}
       <Col md={6} lg={3}>
         <div className="nfts-item">
@@ -56,7 +58,9 @@ export default function DiscoverMore() {
                 <button className="btn left-btn">3h 50m 2s left</button>
               </div>
               <div>
-                <a href="#f" className="btn bid-btn">Place a bid</a>
+                <a href="#f" className="btn bid-btn">
+                  Place a bid
+                </a>
               </div>
             </div>
           </div>
@@ -96,7 +100,9 @@ export default function DiscoverMore() {
                 <button className="btn left-btn">3h 50m 2s left</button>
               </div>
               <div>
-                <a href="#f" className="btn bid-btn">Place a bid</a>
+                <a href="#f" className="btn bid-btn">
+                  Place a bid
+                </a>
               </div>
             </div>
           </div>
@@ -136,7 +142,9 @@ export default function DiscoverMore() {
                 <button className="btn left-btn">3h 50m 2s left</button>
               </div>
               <div>
-                <a href="#f" className="btn bid-btn">Place a bid</a>
+                <a href="#f" className="btn bid-btn">
+                  Place a bid
+                </a>
               </div>
             </div>
           </div>
@@ -176,7 +184,9 @@ export default function DiscoverMore() {
                 <button className="btn left-btn">3h 50m 2s left</button>
               </div>
               <div>
-                <a href="#f" className="btn bid-btn">Place a bid</a>
+                <a href="#f" className="btn bid-btn">
+                  Place a bid
+                </a>
               </div>
             </div>
           </div>
@@ -216,7 +226,9 @@ export default function DiscoverMore() {
                 <button className="btn left-btn">3h 50m 2s left</button>
               </div>
               <div>
-                <a href="#f" className="btn bid-btn">Place a bid</a>
+                <a href="#f" className="btn bid-btn">
+                  Place a bid
+                </a>
               </div>
             </div>
           </div>
@@ -256,7 +268,9 @@ export default function DiscoverMore() {
                 <button className="btn left-btn">3h 50m 2s left</button>
               </div>
               <div>
-                <a href="#f" className="btn bid-btn">Place a bid</a>
+                <a href="#f" className="btn bid-btn">
+                  Place a bid
+                </a>
               </div>
             </div>
           </div>
@@ -296,7 +310,9 @@ export default function DiscoverMore() {
                 <button className="btn left-btn">3h 50m 2s left</button>
               </div>
               <div>
-                <a href="#f" className="btn bid-btn">Place a bid</a>
+                <a href="#f" className="btn bid-btn">
+                  Place a bid
+                </a>
               </div>
             </div>
           </div>
@@ -336,12 +352,14 @@ export default function DiscoverMore() {
                 <button className="btn left-btn">3h 50m 2s left</button>
               </div>
               <div>
-                <a href="#f" className="btn bid-btn">Place a bid</a>
+                <a href="#f" className="btn bid-btn">
+                  Place a bid
+                </a>
               </div>
             </div>
           </div>
         </div>
       </Col>
     </Row>
-	);
+  );
 }

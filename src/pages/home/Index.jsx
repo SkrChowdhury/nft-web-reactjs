@@ -1,12 +1,12 @@
+import Banner from './banner/Banner';
+import CollectionFeaturedNfts from './collection-featured-nfts/CollectionFeaturedNfts';
+import CreateSell from './create-sell/CreateSell';
+import DiscoverMore from './discover-more/DiscoverMore';
+import Features from './features/Features';
 import React from 'react';
+import TopCollections from './top-collections/TopCollections';
 
 // section components
-import Banner from "./banner/Banner";
-import Features from "./features/Features";
-import TopCollections from "./top-collections/TopCollections";
-import CollectionFeaturedNfts from "./collection-featured-nfts/CollectionFeaturedNfts";
-import CreateSell from "./create-sell/CreateSell";
-import DiscoverMore from "./discover-more/DiscoverMore";
 
 export default function Index() {
   return (
@@ -18,5 +18,5 @@ export default function Index() {
       <CreateSell />
       <DiscoverMore />
     </>
-  )
+  );
 }
